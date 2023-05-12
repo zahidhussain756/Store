@@ -1,0 +1,36 @@
+
+/* .card-img-top {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.2);
+  }
+  
+
+  .container .bg-dark  .px-lg-5 .my-5  .py-5{
+
+    background-color: brown;
+  } */
+
+
+  
+.card {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: auto;
+}
+.card .card-img-top {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.card:hover .card-img-top{
+  transform: scale(1.8);
+  cursor: zoom-in;
+}
